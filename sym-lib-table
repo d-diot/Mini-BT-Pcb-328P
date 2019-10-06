@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Mini-BT-Pcb-328P-rescue)(type Legacy)(uri ${KIPRJMOD}/Mini-BT-Pcb-328P-rescue.lib)(options "")(descr ""))
+)
