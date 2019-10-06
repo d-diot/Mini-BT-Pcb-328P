@@ -994,17 +994,6 @@ Wire Wire Line
 Connection ~ 1500 4900
 Wire Wire Line
 	1500 4900 1750 4900
-$Comp
-L Connector_Generic:Conn_02x03_Top_Bottom J6
-U 1 1 5D944FEC
-P 900 4050
-F 0 "J6" H 950 4367 50  0000 C CNN
-F 1 "Booster" H 950 4276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 900 4050 50  0001 C CNN
-F 3 "~" H 900 4050 50  0001 C CNN
-	1    900  4050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1200 4050 1400 4050
 Wire Wire Line
@@ -1188,4 +1177,15 @@ Wire Wire Line
 	3050 7050 3050 6850
 Wire Wire Line
 	3050 6850 3200 6850
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J3
+U 1 1 5D99E722
+P 900 4050
+F 0 "J3" H 950 4367 50  0000 C CNN
+F 1 "Booster CE" H 950 4276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD" H 900 4050 50  0001 C CNN
+F 3 "~" H 900 4050 50  0001 C CNN
+	1    900  4050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
