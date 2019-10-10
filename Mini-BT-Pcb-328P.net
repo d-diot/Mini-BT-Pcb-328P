@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/franz-unix/nas/kicad/projects/Mini-BT-Pcb-328P/Mini-BT-Pcb-328P.sch)
-    (date "dom 06 ott 2019 12:17:31 CEST")
+    (date "mar 08 ott 2019 22:45:53 CEST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -364,7 +364,7 @@
       (tstamp 5D9A8F26))
     (comp (ref SW3)
       (value SW_Reed)
-      (footprint switches:Reed-MKA-14103-EXT-SILK)
+      (footprint switches:Reed-MKA-14103)
       (libsource (lib Switch) (part SW_Reed) (description "reed switch"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D9B2E76))
