@@ -1188,4 +1188,31 @@ F 3 "~" H 900 4050 50  0001 C CNN
 	1    900  4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:Jumper_2_Open JP4
+U 1 1 5D9FB1BA
+P 1550 7100
+F 0 "JP4" V 1504 7198 50  0000 L CNN
+F 1 "1xAAA" V 1595 7198 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 1550 7100 50  0001 C CNN
+F 3 "~" H 1550 7100 50  0001 C CNN
+	1    1550 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 6200 1550 6200
+Wire Wire Line
+	1550 6200 1550 6900
+Connection ~ 1750 6200
+$Comp
+L power:GND #PWR02
+U 1 1 5D9FD7B0
+P 1550 7300
+F 0 "#PWR02" H 1550 7050 50  0001 C CNN
+F 1 "GND" H 1555 7127 50  0000 C CNN
+F 2 "" H 1550 7300 50  0001 C CNN
+F 3 "" H 1550 7300 50  0001 C CNN
+	1    1550 7300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
