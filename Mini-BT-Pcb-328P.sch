@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mini-BT-Pcb-328P"
-Date "2019-10-05"
-Rev "1.0"
+Date "2020-02-09"
+Rev "2.0"
 Comp "d-diot"
 Comment1 "Author: Francesco Berghi"
 Comment2 "info@d-diot.com"
@@ -965,8 +965,6 @@ F 3 "~" H 1500 4750 50  0001 C CNN
 	1    1500 4750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1750 4900 1750 5300
 $Comp
 L Device:R R9
 U 1 1 5D932BFA
@@ -1215,4 +1213,23 @@ F 3 "" H 1550 7300 50  0001 C CNN
 	1    1550 7300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:Jumper_2_Open JP5
+U 1 1 5E406A60
+P 2150 7000
+F 0 "JP5" V 2196 6912 50  0000 R CNN
+F 1 "Jumper_2_Open" V 2105 6912 50  0000 R CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 2150 7000 50  0001 C CNN
+F 3 "~" H 2150 7000 50  0001 C CNN
+	1    2150 7000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2150 7200 3    50   Input ~ 0
+A7
+Wire Wire Line
+	1750 4900 1750 5300
+Wire Wire Line
+	2150 6800 2150 5800
+Wire Wire Line
+	2150 5800 1750 5800
 $EndSCHEMATC
