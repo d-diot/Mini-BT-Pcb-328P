@@ -1,7 +1,7 @@
 # d-diot Mini-BT-Pcb-328P
 
 This board is part of the [d-diot project](https://www.d-diot.com).
-See the [blog post](https://www.d-diot.com/2020/02/08/mini-bt-pcb-328p/ or the dedicated [wiki page](https://wiki.d-diot.com/hardware/pcb/mysensors/mini-bt-pcb-328p) to know more about this board.
+See the [blog post](https://www.d-diot.com/2020/02/08/mini-bt-pcb-328p/) or the dedicated [wiki page](https://wiki.d-diot.com/hardware/pcb/mysensors/mini-bt-pcb-328p) to know more about this board.
 
 ![pcbfront](https://wiki.d-diot.com/_media/hardware/pcb/mysensors/mini-bt-pcb-328p/board-layout/front.jpg)
 
