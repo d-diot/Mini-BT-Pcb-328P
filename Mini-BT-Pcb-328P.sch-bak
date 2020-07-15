@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Mini-BT-Pcb-328P-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -163,7 +164,7 @@ Wire Wire Line
 	3600 5800 3600 5400
 Connection ~ 3600 5800
 $Comp
-L Mini-BT-Pcb-328P-rescue:ATmega328P-AU-MCU_Microchip_ATmega U4
+L MCU_Microchip_ATmega:ATmega328P-AU U4
 U 1 1 5D22C52E
 P 5250 2700
 F 0 "U4" H 5250 2800 50  0000 C CNN
